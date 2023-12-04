@@ -117,7 +117,7 @@ ol {
   border-bottom: 1px solid #FFF;
   inline-size: 225px;
   color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -159,7 +159,7 @@ ol {
   height: 100%;
   background-color: transparent;
   color: #FFF;
-  font-family: "Fira Sans Condensed";
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
   border: 1px solid #FFF;
@@ -211,7 +211,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   block-size: 300px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .content__video-card-description-container {
@@ -280,7 +280,7 @@ ol {
 }
 
 .more-button {
-  block-size: 100%;
+  inline-size: 100%;
   padding: 6px 0;
 }
 
